@@ -117,8 +117,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+MEDIA_URL = 'media/item_images/'
+MEDIA_ROOT = BASE_DIR / 'media'
 
-# Default primary key field type
+# Default primary key field ty pe
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
